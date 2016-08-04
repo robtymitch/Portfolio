@@ -1,0 +1,12 @@
+html {
+  background-color: #333;
+}
+
+.container-fluid {
+  background-color: darkgrey;
+  border: none;
+}
+
+#head-bar {
+    border: none;
+}
