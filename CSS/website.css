@@ -10,3 +10,15 @@ html {
 #head-bar {
     border: none;
 }
+
+#brand {
+  color: #333;
+}
+
+#hamburger-shrink {
+  color: #333;
+}
+
+.navbar-toggle .collapsed .nav-toggle-border {
+    border-color: #333;
+}
