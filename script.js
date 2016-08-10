@@ -1,6 +1,4 @@
-angular.module('portfolioApp', ['ui.router']);
-
-.config(function($stateProvider, $urlRouterProvider) {
+var app = angular.module('portfolioApp', ['ui.router']).config(function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/');
 
