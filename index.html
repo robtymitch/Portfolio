@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="portfolioApp">
+<html>
 
 <head>
 
@@ -37,10 +37,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="header-list-item" href="#">Schooling</a></li>
-            <li><a class="header-list-item" href="#">Hobbies</a></li>
-            <li><a class="header-list-item" href="#">Work Experience</a></li>
-            <li><a class="header-list-item" href="#">The Future</a></li>
+            <li><a class="header-list-item" href="#introduciton">Introduction</a></h1>
+            <li><a class="header-list-item" href="#schooling">Schooling</a></li>
+            <li><a class="header-list-item" href="#hobbies">Hobbies</a></li>
+            <li><a class="header-list-item" href="#work-experience">Work Experience</a></li>
+            <li><a class="header-list-item" href="#the-future">The Future</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -48,18 +49,16 @@
 
   </header>
 
-<div ui-view></div>
-
   <div id="main">
   </br>
 </br>
-<div class="main-section introduction">
+<div id="introduction" class="main-section introduction">
   <h1>Introductions</h1>
   <p>Over the summer after my first semester of college I was given the opportunity to work for the company CBTS a branch of Cincinnati Bell. This web Page is a portfolio of what I have learned and accomplished both before and after I joined CBTS. Please select a section at the top of the screen to view more details.</p>
 </br>
 </br>
 </div>
-<div class="main-section schooling">
+<div id="schooling" class="main-section schooling">
   <h1>Schooling</h1>
   <button class="accordion">Section 1</button>
   <div class="panel">
@@ -76,7 +75,7 @@
     <p>Lorem ipsum...</p>
   </div>
 </div>
-<div class="main-section word-experience">
+<div id="work-experience" class="main-section work-experience">
   <h1>Work Experience</h1>
   <button class="accordion">Section 1</button>
   <div class="panel">
@@ -93,7 +92,7 @@
     <p>Lorem ipsum...</p>
   </div>
 </div>
-<div class="main-section hobbies">
+<div id="hobbies" class="main-section hobbies">
   <h1>Hobbies</h1>
   <button class="accordion">Section 1</button>
   <div class="panel">
@@ -128,10 +127,6 @@
   </div>
 </div>
 </div>
-
-<script src = "bower_components/angular/angular.min.js"></script>
-
-<script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 
 <script src="script.js"></script>
 

@@ -43,9 +43,6 @@ p {
 
 .main-section{
   background-color: #333;
-  width: 75%;
-  margin: 100px auto;
-  box-shadow: 0 2px 20px 0 #222, 0 6px 20px 0 #222;
 }
 
 button.accordion {
